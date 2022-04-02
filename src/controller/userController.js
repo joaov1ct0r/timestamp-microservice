@@ -18,3 +18,5 @@ const handleDate = (req, res) => {
         });
     }
 };
+
+export { handleDate };
