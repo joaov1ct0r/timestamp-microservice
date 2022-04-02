@@ -4,8 +4,8 @@ import { handleDate, handleNullDate } from '../controller/userController.js';
 
 const userRouter = express.Router();
 
-userRouter.get('/timestamp', handleNullDate);
+userRouter.get('/', handleNullDate);
 
-userRouter.get('/timestamp/:date', handleDate);
+userRouter.get('/:date', handleDate);
 
 export default userRouter;
