@@ -6,4 +6,6 @@ const userRouter = express.Router();
 
 userRouter.get('/timestamp', handleNullDate);
 
+userRouter.get('/timestamp/:data', handleDate);
+
 export default userRouter;
