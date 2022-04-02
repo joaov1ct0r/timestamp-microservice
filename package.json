@@ -1,13 +1,14 @@
 {
   "name": "timestamp-microservice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sistema de Micro serviço para envio de Data/Hora, feito em NodeJS utilizando express",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["nodejs", "microservice", "timestamp", "express", "dotenv"],
+  "author": "github.com/joaov1ct0r",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
