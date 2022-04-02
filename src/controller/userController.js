@@ -28,4 +28,4 @@ const handleNullDate = (req, res) => {
     });
 };
 
-export { handleDate };
+export { handleDate, handleNullDate };
